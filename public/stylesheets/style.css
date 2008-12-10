@@ -1,0 +1,63 @@
+/* TYPOGRAPHY */
+h1 {
+    font-size: 138.5%;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 123.1%;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 116%;
+    margin-bottom: 10px;
+}
+
+/* Layout */
+#hd {
+    margin-bottom:1em;
+}
+#bd {
+    margin-bottom:1em;
+}
+/* === FLASH MESSAGES === */
+div#flash-notice, #ajax-notice, #flash-warning, #flash-error {
+    border: 1px solid #FFCC66;
+    background-color: #FFFFCC;
+    font-size: 100%;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+div#flash-error,#flash-notice, #flash-warning, #ajax_notice    {
+    padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; margin-top: 1em;
+}
+div#flash-error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+div#flash-notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+div#flash-warning  { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+div#ajax-notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+
+/* === ERROR MESSAGES === */
+div#errorExplanation {
+    border: 1px solid #FFCC66;
+    background-color: #FFFFCC;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+div#errorExplanation h2 {
+    background: 0;
+    border: 0;
+    font-size: 108%;
+    margin-top: 0;
+    padding: 0;
+}
+/* General Styling */
+img {
+    border: none;
+}
+a {
+    color: #20607F;
+    text-decoration: none;
+}
+fieldset {
+    margin-bottom:1em;
+}

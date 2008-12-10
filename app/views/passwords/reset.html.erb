@@ -6,12 +6,12 @@
 		<legend>Update Password</legend>
 		<ol>
 			<li>
-		    <%= f.label :password %>
-		    <%= f.password_field :password %>
+		    <%= f.label :password, nil, :class => 'desc' %>
+		    <%= f.password_field :password, :class =>'text' %>
 			</li>
 			<li>
-		    <%= f.label :password_confirmation %>
-		    <%= f.password_field :password_confirmation %>
+		    <%= f.label :password_confirmation, nil, :class => 'desc' %>
+		    <%= f.password_field :password_confirmation, :class => 'text' %>
 			</li>
 		</ol>
 	</fieldset>
